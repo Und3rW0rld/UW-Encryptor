@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+}
+body{
+    background: #f3f5fc;
+}
+.logo{
+    margin-top: 20px;
+}
+
+main{
+    width: 60%;
+    margin: auto 40px auto auto;
+}
+
+.container-first-area{
+    
+}
+
+.container-second-area{
+}

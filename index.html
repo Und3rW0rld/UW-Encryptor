@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UW Encryptor</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="img/Logo_uw.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <a href="#"> <img src="img/Logo_uw.png" alt="" class="logo"></a>
+    </header>
+    <main>
+        <section class="container-first-area">
+            <textarea id="ingresoTexto" class="text-area" placeholder="Enter text here"></textarea>
+            <div>
+                <h6 class="informacion"><img src="img/bi_exclamation-circle-fill.svg" alt="">Only lowercase letters and no accents &nbsp; <span id="selectEncripter" class="select-encripter">(Alura Encryption)</span></h6>
+            </div>
+            <div class="botones">
+                <button id="botonEncriptar" class="btn-encriptar btn">Encrypt</button>
+                <button id="botonDesencriptar" class="btn-desencriptar btn">Decrypt</button>
+            </div>
+        </section>
+        <section class="container-second-area">
+            <div id="panel" class="panel">
+                <textarea class="mensaje" name="" id="mensajeFinal" readonly></textarea>
+                <p id="textMnf" class="text-mnf">No message was found</p>
+                <p id="textIat" class="text-iat">Enter the text you want to encrypt or decrypt
+                </p>
+                <button id="btnCopiar" class="btn-copiar btn oculto">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="info">
+                <h4>About this:</h4>
+                <p class="info-text">This is a project whose purpose is to serve as a text encrypter (With the alura encryption) or translate to morse. Include the option to reverse texts</p>
+            </div>
+            <div class="options">
+                <h4>Here are some other encryption options:</h4>
+                    <ul>
+                        <li><button id="btnAlura" class="btn-options seleccionado">Alura Encryption</button></li>
+                        <li><button id="btnMorse" class="btn-options">To morse code</button></li>
+                        <li><button id="btnReverse" class="btn-options">Reverse text</button></li>
+                    </ul>
+                
+            </div>
+            <div class="contact">
+                <h4>Contact me:</h4>
+                <ul>
+                    <li class="list-item"><a href="https://www.linkedin.com/in/under-world/" target="_blank"><img class="icon" src="img/linkedin 1.svg" alt=""><p class="socialmedia-text">Linkedin</p></a></li>
+                    <li class="list-item"><a href="https://github.com/Und3rW0rld" target="_blank"><img class="icon" src="img/github 1.svg" alt=""><p class="socialmedia-text">Git Hub</p></a></li>
+                    <li class="list-item"><a href="https://twitter.com/under_world_dev" target="_blank"><img class="icon" src="img/twitter 1.svg" alt=""><p class="socialmedia-text">Twitter</p></a></li>
+                    <li class="list-item"><a href="https://www.instagram.com/under_world_dev/" target="_blank"><img class="icon" src="img/instagram 1.svg" alt=""><p class="socialmedia-text">Instagram</p></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copys">
+            <p class="copyr">Developed by <a href="https://www.linkedin.com/in/under-world/" target="_blank">@under-world</a> programmer (Santi Acevedo)</p>
+        </div>
+    </footer>
+
+    <script src="js/scirpt.js"></script>
+</body>
+</html>
